@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Trafalgar</title>
+  </head>
+  <body>
+    <header class="mb-[186px]">
+      <nav>
+        <div
+          class="max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto px-10"
+        >
+          <div class="nav__wrapper flex justify-between items-center h-[80px]">
+            <div class="nav__logo">
+              <img
+                class="w-26 md:w-32 lg:w-48"
+                src="./images/nav__logo.svg"
+                alt=""
+              />
+            </div>
+            <i class="fa-solid fa-bars sm:block md:hidden"></i>
+            <ul
+              class="nav__menu flex gap-x-10 hidden md:flex sm:text-xs md:text-base text-gray-500"
+            >
+              <li class="nav__item">
+                <a href="#" class="nav__link hover:text-black"> Home </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link hover:text-black">
+                  Find a doctor
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link hover:text-black"> Apps </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link hover:text-black">
+                  Testimonials
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link hover:text-black"> About us </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class=" container mx-auto w-100% lg:max-w-[1200px]">
+      <!-- section1 -->
+      <div
+        class="max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto px-10 sm:grid md:cls-grid-cols-1 lg:flex gap-[127px]"
+      >
+        <div
+          class="banner-title flex flex-col sm:items-center lg:items-start mb-[100px] sm:w-[100%] mx-auto md:mx-0 md:w-[100%]"
+        >
+          <h1
+            class="md:text-4xl lg:text-5xl text-3xl font-bold sm:w-[100%] md:w-[427px] leading-[56px] text-center sm:text-center lg:text-start"
+          >
+            Virtual healthcare for you
+          </h1>
+          <p
+            class="md:text-lg lg:text-xl text-gray-400 font-light lg:w-[445px] mt-[25px] mb-[45px] leading-8 text-center md:text-center lg:text-start"
+          >
+            Trafalgar provides progressive, and affordable healthcare,
+            accessible on mobile and online for everyone
+          </p>
+          <button
+            class="rounded-full bg-blue-400 h-[56px] px-[40px] text-white mb-[100px]"
+          >
+            Consult today
+          </button>
+        </div>
+        <div class="banner-img sm:w-[300px] lg:w-full mx-auto">
+          <img class="mt-[-100px]" src="./images/banner-img.png" alt="" />
+        </div>
+      </div>
+      <!-- section1 -->
+      <!-- section2 -->
+      <div
+        class="our-services max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto px-10 lg:flex gap-[127px]x items-center mb-[78px] flex-col"
+      >
+        <div class="our-services-title text-center">
+          <h2
+            class="text-3xl text-black text-bold font-medium mb-[61px] mx-auto"
+          >
+            Our services
+          </h2>
+          <p class="md:text-lg lg:text-xl text-gray-400 font-light lg:w-[952px] mt-[25px]  leading-8 text-center md:text-start  lg:text-center">
+            Buy  your medicines with our mobile application with a simple delivery system
+          </p>
+        </div>
+        <div class="our-cards grid grid-cols-1 items-center lg:grid lg:grid-cols-2 lg:gap-[34px] xl:grid-cols-3 my-20">
+          <div class="our-card flex items-center justify-center md:flex md:items-center md:justify-center">
+
+            <div
+              class="md:w-284px lg:w-384px relative mt-6 flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+            >
+              <div class="p-6">
+             <img class="mb-[10px]" src="./images/lupa.svg" alt="">
+                  <path
+                    fill-rule="evenodd"
+                    d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"
+                    clip-rule="evenodd"
+                  ></path>
+                  <path
+                    d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z"
+                  ></path>
+                </svg>
+                <h5
+                  class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased"
+                >
+                Online pharmacy
+                </h5>
+                <p
+                  class="w-284px lg:w-384px block font-sans text-base font-light leading-relaxed text-inherit antialiased"
+                >
+                Buy  your medicines with our mobile application with a simple delivery system
+                </p>
+              </div>
+              <div class="p-6 pt-0">
+                <a
+                  class="!font-medium !text-blue-gray-900 !transition-colors hover:!text-pink-500"
+                  href="#"
+                >
+           
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                      ></path>
+                    </svg>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="our-card flex items-center justify-center md:flex md:items-center md:justify-center">
+
+            <div
+              class="md:w-284px lg:w-384px relative mt-6 flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+            >
+              <div class="p-6">
+                <img class="mb-[10px]" src="./images/lupa.svg" alt="">
+                  <path
+                    fill-rule="evenodd"
+                    d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"
+                    clip-rule="evenodd"
+                  ></path>
+                  <path
+                    d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z"
+                  ></path>
+                </svg>
+                <h5
+                  class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased"
+                >
+                Online pharmacy 
+                </h5>
+                <p
+                  class="block font-sans text-base font-light leading-relaxed text-inherit antialiased"
+                >
+                Buy  your medicines with our mobile application with a simple delivery system
+                </p>
+              </div>
+              <div class="p-6 pt-0">
+                <a
+                  class="!font-medium !text-blue-gray-900 !transition-colors hover:!text-pink-500"
+                  href="#"
+                >
+               
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                      ></path>
+                    </svg>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="our-card flex items-center justify-center md:flex md:items-center md:justify-center">
+
+            <div
+              class="md:w-284px lg:w-384px relative mt-6 flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+            >
+              <div class="p-6">
+                <img class="mb-[10px]" src="./images/lupa.svg" alt="">
+                  <path
+                    fill-rule="evenodd"
+                    d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"
+                    clip-rule="evenodd"
+                  ></path>
+                  <path
+                    d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z"
+                  ></path>
+                </svg>
+                <h5
+                  class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased"
+                >
+                Consultation
+                </h5>
+                <p
+                  class="block font-sans text-base font-light leading-relaxed text-inherit antialiased"
+                >
+                Free consultation with our trusted doctors and get the best recomendations
+                </p>
+              </div>
+              <div class="p-6 pt-0">
+                <a
+                  class="!font-medium !text-blue-gray-900 !transition-colors hover:!text-pink-500"
+                  href="#"
+                >
+              
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                      ></path>
+                    </svg>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="our-card flex items-center justify-center md:flex md:items-center md:justify-center">
+
+            <div
+              class="md:w-284px lg:w-384px relative mt-6 flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+            >
+              <div class="p-6">
+                <img class="mb-[10px]" src="./images/lupa.svg" alt="">
+                  <path
+                    fill-rule="evenodd"
+                    d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"
+                    clip-rule="evenodd"
+                  ></path>
+                  <path
+                    d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z"
+                  ></path>
+                </svg>
+                <h5
+                  class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased"
+                >
+                Details info
+                </h5>
+                <p
+                  class="block font-sans text-base font-light leading-relaxed text-inherit antialiased"
+                >
+                Free consultation with our trusted doctors and get the best recomendations
+                </p>
+              </div>
+              <div class="p-6 pt-0">
+                <a
+                  class="!font-medium !text-blue-gray-900 !transition-colors hover:!text-pink-500"
+                  href="#">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                      ></path>
+                    </svg>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="our-card flex items-center justify-center md:flex md:items-center md:justify-center">
+
+            <div
+              class="md:w-284px lg:w-384px relative mt-6 flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+            >
+              <div class="p-6">
+                <img class="mb-[10px]" src="./images/lupa.svg" alt="">
+                  <path
+                    fill-rule="evenodd"
+                    d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"
+                    clip-rule="evenodd"
+                  ></path>
+                  <path
+                    d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z"
+                  ></path>
+                </svg>
+                <h5
+                  class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased"
+                >
+                Emergency care
+                </h5>
+                <p
+                  class="block font-sans text-base font-light leading-relaxed text-inherit antialiased"
+                >
+                You can get 24/7 urgent care for yourself or your children and your
+                lovely family
+              </div>
+              <div class="p-6 pt-0">
+                <a
+                  class="!font-medium !text-blue-gray-900 !transition-colors hover:!text-pink-500"
+                  href="#"
+                >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                      ></path>
+                    </svg>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="our-card flex items-center justify-center md:flex md:items-center md:justify-center">
+
+            <div
+              class="md:w-284px lg:w-384px relative mt-6 flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+            >
+              <div class="p-6">
+                <img class="mb-[10px]" src="./images/lupa.svg" alt="">
+                  <path
+                    fill-rule="evenodd"
+                    d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"
+                    clip-rule="evenodd"
+                  ></path>
+                  <path
+                    d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z"
+                  ></path>
+                </svg>
+                <h5
+                  class="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased"
+                >
+                Tracking
+                </h5>
+                <p
+                  class="block font-sans text-base font-light leading-relaxed text-inherit antialiased"
+                >
+                Track and save your medical history and health data 
+                </p>
+              </div>
+              <div class="p-6 pt-0">
+                <a
+                  class="!font-medium !text-blue-gray-900 !transition-colors hover:!text-pink-500"
+                  href="#"
+                >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                      ></path>
+                    </svg>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" flex items-center justify-center btn__wrapper md:flex md:items-center md:justify-center">
+          <button
+            class="flex select-none items-center gap-3 rounded-[55px] px-[51px] border border-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-500 transition-all hover:opacity-75 focus:ring focus:ring-blue-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button"
+            data-ripple-dark="true"
+          >
+            Learn more
+          </button>
+        </div>
+      </div>
+      <!-- section2 -->
+      <!-- section3 -->
+      <div
+        class="max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto my-[261px] px-10 sm:grid md:cls-grid-cols-1 lg:flex gap-[127px]"
+      >
+        <div class="banner-img sm:w-[300px] lg:w-full mx-auto">
+          <img class="mt-[-100px]" src="./images/app.png" alt="" />
+        </div>
+        <div
+          class="banner-title flex flex-col sm:items-center lg:items-start mb-[100px] sm:w-[100%] mx-auto md:mx-0 md:w-[100%]"
+        >
+          <h1
+            class="md:text-4xl lg:text-5xl text-3xl font-bold sm:w-[100%] md:w-[481px] leading-[56px] text-center sm:text-center lg:text-start"
+          >
+            Leading healthcare providers
+          </h1>
+          <p
+            class="md:text-lg lg:text-xl text-gray-400 font-light lg:w-[445px] mt-[25px] mb-[45px] leading-8 text-center md:text-center lg:text-start"
+          >
+            Trafalgar provides progressive, and affordable healthcare,
+            accessible on mobile and online for everyone. To us, it’s not just
+            work. We take pride in the solutions we deliver
+          </p>
+          <button
+            class="flex select-none items-center gap-3 rounded-[55px] px-[51px] border border-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-500 transition-all hover:opacity-75 focus:ring focus:ring-blue-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button"
+            data-ripple-dark="true"
+          >
+            Learn more
+          </button>
+        </div>
+      </div>
+      <!-- section3 -->
+      <!-- section4 -->
+      <div
+        class="max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto my-[261px] px-10 sm:grid md:cls-grid-cols-1 lg:flex gap-[127px]"
+      >
+        <div
+          class="banner-title flex flex-col sm:items-center lg:items-start mb-[100px] sm:w-[100%] mx-auto md:mx-0 md:w-[100%]"
+        >
+          <h1
+            class="md:text-4xl lg:text-5xl text-3xl font-bold sm:w-[100%] md:w-[481px] leading-[56px] text-center sm:text-center lg:text-start"
+          >
+            Download our mobile apps
+          </h1>
+          <p
+            class="md:text-lg lg:text-xl text-gray-400 font-light lg:w-[445px] mt-[25px] mb-[45px] leading-8 text-center md:text-center lg:text-start"
+          >
+            Our dedicated patient engagement app and web portal allow you to
+            access information instantaneously (no tedeous form, long calls, or
+            administrative hassle) and securely
+          </p>
+          <button
+            class="flex select-none items-center gap-3 rounded-[55px] px-[51px] border border-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-500 transition-all hover:opacity-75 focus:ring focus:ring-blue-200 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button"
+            data-ripple-dark="true"
+          >
+          Download
+          </button>
+        </div>
+        <div class="banner-img sm:w-[300px] lg:w-full mx-auto">
+          <img class="" src="./images/health-img.png" alt="" />
+        </div>
+      </div>
+      <!-- section4 -->
+      <!-- section5 -->
+      <div class="carousel bg-cyan-400	rounded-[24px]"><!-- component -->
+        <!-- This is an example component -->
+        <div class="max-w-4xl mx-auto">
+        
+          <div id="default-carousel" class="relative" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                       <div class="carousel-title">
+                        <h3 class="mt-[93px] mb-[73px] text-center text-white">What our customer are saying</h3>
+                       </div>
+                       <div class="user grid grid-cols-2 items-center">
+                        <div class="user-img flex items-center gap-5">
+                          <img class="rounded-full" src="./images/image 1.png" alt="">
+                          <div>
+                            <h4 class="text-white text-2xl">Edward Newgate</h4>
+                            <p class="text-white">Founder Circle</p>
+                          </div>
+                        </div>
+                        <div class="user-text flex text-white w-[420px] leading-7 text-lg">“Our dedicated patient engagement app and 
+                          web portal allow you to access information instantaneously (no tedeous form, long calls, 
+                          or administrative hassle) and securely”</div>
+                       </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                      <div class="carousel-title">
+                       <h3 class="mt-[93px] mb-[73px] text-center text-white">What our customer are saying</h3>
+                      </div>
+                      <div class="user grid grid-cols-2 items-center">
+                       <div class="user-img flex items-center gap-5">
+                         <img class="rounded-full" src="./images/image 1.png" alt="">
+                         <div>
+                           <h4 class="text-white text-2xl">Edward Newgate</h4>
+                           <p class="text-white">Founder Circle</p>
+                         </div>
+                       </div>
+                       <div class="user-text flex text-white w-[420px] leading-7 text-lg">“Our dedicated patient engagement app and 
+                         web portal allow you to access information instantaneously (no tedeous form, long calls, 
+                         or administrative hassle) and securely”</div>
+                      </div>
+                   </div>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                      <div class="carousel-title">
+                       <h3 class="mt-[93px] mb-[73px] text-center text-white">What our customer are saying</h3>
+                      </div>
+                      <div class="user grid grid-cols-2 items-center">
+                       <div class="user-img flex items-center gap-5">
+                         <img class="rounded-full" src="./images/image 1.png" alt="">
+                         <div>
+                           <h4 class="text-white text-2xl">Edward Newgate</h4>
+                           <p class="text-white">Founder Circle</p>
+                         </div>
+                       </div>
+                       <div class="user-text flex text-white w-[420px] leading-7 text-lg">“Our dedicated patient engagement app and 
+                         web portal allow you to access information instantaneously (no tedeous form, long calls, 
+                         or administrative hassle) and securely”</div>
+                      </div>
+                   </div>
+                </div>
+                <!-- Slider indicators -->
+                <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                </div>
+                <!-- Slider controls -->
+                <!-- <button type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                        <span class="hidden">Previous</span>
+                    </span>
+                </button>
+                <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                        <span class="hidden">Next</span>
+                    </span>
+                </button> -->
+            </div>
+        
+            <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+        </div></div>
+      <!-- section5 -->
+    </main>
+  </body>
+</html>
